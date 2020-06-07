@@ -32,8 +32,8 @@ MONGO_URL='mongodb://localhost:27017/sporgenda'
 
 ### Rodando a aplicação
 
-1 - Entre no diretório do backend e rode `npm run dev`
-2 - Entre no diretório do frontend e rode `npm start`
+1 - Entre no diretório do backend e rode `npm run dev`<br />
+2 - Entre no diretório do frontend e rode `npm start`<br />
 3 - A aplicação se abrirá na porta 3000 do localhost
 
 ## Veja a aplicação rodando
