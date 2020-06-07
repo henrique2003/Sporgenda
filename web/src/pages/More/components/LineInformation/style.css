@@ -1,0 +1,46 @@
+.wrapper_line_information {
+  display: flex;
+  margin-top: 18px;
+}
+
+.wrapper_line_information p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+
+.wrapper_line_information div {
+  width: 11px;
+  height: 11px;
+  background: #4fd43b;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .wrapper_line_information p {
+    font-size: 17px;
+  }
+
+  .wrapper_line_information div {
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 3px;
+  }
+}
+
+/* Celphone */
+@media (max-width: 428px) {
+  .wrapper_line_information p {
+    font-size: 16px;
+  }
+
+  .wrapper_line_information div {
+    width: 9px;
+    height: 9px;
+    margin-right: 13px;
+    margin-top: 1px;
+  }
+}

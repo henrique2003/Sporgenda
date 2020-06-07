@@ -1,0 +1,49 @@
+.wrapper_home {
+  margin: 50px 0;
+}
+
+.wrapper_home .container {
+  padding: 0 150px;
+}
+
+.arrow_login {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.arrow_login:hover svg {
+  margin-top: 0;
+  transform: rotateY(190deg);
+  transition: all 0.3s ease;
+}
+
+.arrow_login svg {
+  font-size: 55px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: -40px;
+  transition: all 0.3s ease;
+}
+
+/* Ipad pro */
+@media (max-width: 1050px) {
+  .wrapper_home .container {
+    padding: 0 100px;
+  }
+}
+
+/* Big tablets */
+@media (max-width: 900px) {
+  .wrapper_home .container {
+    padding: 0 50px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .wrapper_home {
+    margin: 20px 0;
+  }
+}

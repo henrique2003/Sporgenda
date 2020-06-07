@@ -1,0 +1,201 @@
+.wrapper_admin {
+  margin: 50px 150px;
+}
+
+/* Admin body */
+.wrapper_admin .wrapper_admin_body {
+  margin-top: 50px;
+}
+
+/* Admin Title */
+.wrapper_admin .wrapper_admin_body article {
+  max-width: 300px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #4fd43b;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.wrapper_admin .wrapper_admin_body article h3 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+}
+
+.wrapper_admin .wrapper_admin_body .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+}
+
+/* Form */
+.wrapper_admin .wrapper_admin_body .row form {
+  margin-top: 20px;
+}
+
+.wrapper_admin .wrapper_admin_body .row form .form_row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper_admin .wrapper_admin_body .row form .form_row .input_item {
+  margin-right: 15px;
+}
+
+.wrapper_admin .wrapper_admin_body .row form .form_row .input_item:nth-child(3) {
+  margin-right: 0 !important;
+}
+
+.wrapper_admin .wrapper_admin_body .row form .form_row button {
+  margin-top: 35px;
+  margin-right: 15px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  background: #4fd43bca;
+  font-size: 18px;
+  padding: 10px;
+}
+/* End Form */
+
+.wrapper_admin .wrapper_admin_body .row section img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper_admin .wrapper_admin_body .schedules_row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 35px;
+}
+
+/* Cahnge Size Image */
+@media (max-width: 1200px) {
+  .wrapper_admin .wrapper_admin_body .row section img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .schedules_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Ipad pro */
+@media (max-width: 1050px) {
+  .wrapper_admin {
+    margin: 50px 100px;
+  }
+
+  /* Form */
+  .wrapper_admin .wrapper_admin_body .row form {
+    margin-top: 30px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row form .form_row button {
+    margin-top: 25px;
+  }
+  /* End Form */
+
+  .wrapper_admin .wrapper_admin_body .row section img {
+    width: 100%;
+    height: 370px;
+  }
+}
+
+/* Big tablets */
+@media (max-width: 900px) {
+  .wrapper_admin {
+    margin: 30px 50px;
+  }
+
+  /* Form */
+  .wrapper_admin .wrapper_admin_body .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .wrapper_admin .wrapper_admin_body .row form {
+    margin: 0 40px;
+    margin-top: 30px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row form .form_row button {
+    margin-top: 25px;
+  }
+  /* End Form */
+
+  .wrapper_admin .wrapper_admin_body .row section {
+    padding: 0 30px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row section img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .wrapper_admin .wrapper_admin_body .row header p {
+    font-size: 17px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row header div {
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    margin-top: 3px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .schedules_row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Big Celhpnes */
+@media (max-width: 600px) {
+  .wrapper_admin .wrapper_admin_body .row form {
+    margin: 0 20px;
+    margin-top: 30px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row form .form_row button {
+    margin-top: 25px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row form .form_row button {
+    margin-top: 25px;
+    font-size: 17px;
+    padding: 8px;
+  }
+  /* End Form */
+
+  .wrapper_admin .wrapper_admin_body .row section {
+    padding: 0;
+  }
+}
+
+/* Celphones */
+@media (max-width: 428px) {
+  .wrapper_admin {
+    margin: 30px 25px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row header p {
+    font-size: 16px;
+  }
+
+  .wrapper_admin .wrapper_admin_body .row header div {
+    width: 9px;
+    height: 9px;
+    margin-right: 13px;
+    margin-top: 1px;
+  }
+}

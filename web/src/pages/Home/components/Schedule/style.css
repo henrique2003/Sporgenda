@@ -1,0 +1,46 @@
+.wrapper_schedules .wrapper_title {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.wrapper_schedules .wrapper_title h3 {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.8);
+  font-weight: 300;
+  font-size: 30px;
+  border-bottom: 1px solid #4fd43b;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.wrapper_schedules .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Change grid */
+@media (max-width: 1200px) {
+  .wrapper_schedules .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .wrapper_schedules .wrapper_title h3 {
+    font-size: 25px;
+  }
+
+  .wrapper_schedules .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Celphones */
+@media (max-width: 428px) {
+  .wrapper_schedules .wrapper_title h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+}

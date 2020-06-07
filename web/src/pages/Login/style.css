@@ -1,0 +1,83 @@
+.error {
+  color: red;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.wrapper_login {
+  margin: 50px 150px;
+}
+
+.wrapper_login form {
+  padding: 40px;
+  border: 1px solid #4fd43b;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.wrapper_login form header {
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+  border-bottom: 1px solid #4fd43b;
+}
+
+.wrapper_login form header h5 {
+  padding-bottom: 3px;
+  font-weight: 300;
+  color: #808080e5;
+  font-size: 25px;
+}
+
+.wrapper_login form section {
+  margin-top: 40px;
+}
+
+.wrapper_login form section input {
+  margin-top: 20px;
+  width: 100%;
+  background: #c4c4c4b0;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.wrapper_login form section button {
+  margin-top: 30px;
+  width: 100%;
+  background: #4dcc3ac4;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* Ipad pro */
+@media (max-width: 1050px) {
+  .wrapper_login {
+    margin: 50px 100px;
+  }
+}
+
+/* Big tablets */
+@media (max-width: 900px) {
+  .wrapper_login {
+    margin: 30px 50px;
+  }
+}
+
+/* Celphones */
+@media (max-width: 428px) {
+  .wrapper_login {
+    margin: 30px 25px;
+  }
+}

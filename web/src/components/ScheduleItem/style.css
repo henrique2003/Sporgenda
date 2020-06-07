@@ -1,0 +1,111 @@
+.schedule {
+  border: 1px solid #4fd43b;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 20px;
+  margin-top: 30px;
+}
+
+.card_header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.schedule .content .card_header h4 {
+  font-size: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.schedule .content .card_header .green_point {
+  width: 10px;
+  height: 10px;
+  background: #4fd43b;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-right: 20px;
+}
+
+.schedule .content p {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.schedule .content section {
+  display: flex;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.schedule .content section span:last-child {
+  margin-left: 15px;
+}
+
+.schedule .content a {
+  color: #4ecc3a;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .schedule .content .card_header h4 {
+    font-size: 20px;
+  }
+
+  .schedule .content .card_header .green_point {
+    width: 8px;
+    height: 8px;
+    margin-right: 19px;
+  }
+
+  .schedule .content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .schedule .content section {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .schedule .content a {
+    font-size: 18px;
+  }
+}
+
+/* Celphones */
+@media (max-width: 428px) {
+  .schedule {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .schedule .content .card_header h4 {
+    font-size: 19px;
+  }
+
+  .schedule .content .card_header .green_point {
+    width: 7px;
+    height: 7px;
+    margin-right: 18px;
+  }
+
+  .schedule .content p {
+    font-size: 17px;
+    margin-bottom: 13px;
+  }
+
+  .schedule .content section {
+    margin-bottom: 13px;
+    font-size: 17px;
+  }
+
+  .schedule .content a {
+    font-size: 17px;
+  }
+}

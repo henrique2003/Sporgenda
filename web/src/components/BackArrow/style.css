@@ -1,0 +1,41 @@
+a {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a svg {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 55px;
+}
+
+a span {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  line-height: 55px;
+  margin-left: 10px;
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+  a svg {
+    font-size: 45px;
+  }
+
+  a span {
+    font-size: 17px;
+    line-height: 45px;
+  }
+}
+
+/* Celphone */
+@media (max-width: 428px) {
+  a svg {
+    font-size: 35px;
+  }
+
+  a span {
+    display: none;
+  }
+}

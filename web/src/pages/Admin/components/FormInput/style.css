@@ -1,0 +1,81 @@
+/* Form label */
+.wrapper_input header {
+  display: flex;
+  margin-top: 25px;
+}
+
+.wrapper_input header p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+
+.wrapper_input header div {
+  width: 11px;
+  height: 11px;
+  background: #4fd43b;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+/* End form label */
+
+.wrapper_input input {
+  width: 100%;
+  background: #c4c4c4bc;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 3px;
+  margin-top: 10px;
+  border: none;
+}
+
+/* Ipad Pro */
+@media (max-width: 1050px) {
+  .wrapper_input header {
+    margin-top: 20px;
+  }
+}
+
+/* Big Celhpnes */
+@media (max-width: 600px) {
+  /* Form label */
+  .wrapper_input header {
+    margin-top: 20px;
+  }
+
+  .wrapper_input header p {
+    font-size: 17px !important;
+  }
+
+  .wrapper_input header div {
+    width: 10px;
+    height: 10px;
+    margin-top: 5px !important;
+  }
+  /* End form label */
+
+  .wrapper_input input {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+}
+
+/* Big Celhpnes */
+@media (max-width: 428px) {
+  /* Form label */
+  .wrapper_input header {
+    margin-top: 15px;
+  }
+
+  .wrapper_input header p {
+    font-size: 16px !important;
+  }
+  /* End form label */
+
+  .wrapper_input input {
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-top: 7px;
+  }
+}
