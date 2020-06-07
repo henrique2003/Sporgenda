@@ -10,8 +10,8 @@
 
 ### Feito com
 
-1. HTML.<br />
-2. CSS.<br />
+1. HTML<br />
+2. CSS<br />
 3. React js<br />
 4. TypeScript<br />
 
